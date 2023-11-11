@@ -11,7 +11,6 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "6835125869:AAG2b1HTuDy9Ixq_wawdEyjhyeLelcn8xx0")
     FSUB = getenv("FSUB", "Agsmods")
     CHID = int(getenv("CHID", "-1002091999754")
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Gali:Gali@cluster0.qm9j1ag.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
 
