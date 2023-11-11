@@ -11,7 +11,7 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "6835125869:AAGWrHgrJezV3DZYVHz-JA4izYAIISdHLGc")
     FSUB = getenv("FSUB", "Agsmods")
     CHID = int(getenv("CHID", "-1002091999754")
-    SUDO = list(map(int, getenv("SUDO", "6968528769").split()))
+    SUDO = int(getenv("SUDO", "6968528769").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Gali:Gali@cluster0.qm9j1ag.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
